@@ -1,0 +1,166 @@
+.landing {
+	position: relative;
+	background: url('./assets/1080x628.png') no-repeat center center/cover;
+	height: 100vh;
+}
+
+.dark-overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+}
+
+.landing-inner {
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+button:focus{
+	outline:none !important;
+} 
+
+.landing-inner form {
+	width: 30%;
+}
+
+.landing-inner h1,
+.landing-inner h4,
+.landing-inner p {
+	color: white;
+}
+
+.spinner-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+/* Post button */
+.post-button {
+	padding-top: 0;
+	border: none;
+	background: transparent;	
+	
+	background-color: none;
+}
+
+.addform {
+	align-items: start;
+	justify-content:center
+
+}
+.cardaddform {
+	width: 650px;
+}
+.post-button:hover {
+	background: transparent;
+}
+
+a.post-button.btn:focus,
+a.post-button.btn:active {
+	outline: none;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+label.form-label {
+    color: black;
+}
+button.post-button.btn:focus,
+button.post-button.btn:active {
+	outline: none;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+/* Floating add button */
+.btn-floating {
+	position: fixed;
+	right: 3rem;
+	bottom: 3rem;
+	background: transparent;
+	border: none;
+}
+.btn-floatingform.btn-success {
+	background-color: white;
+	border-color: white;
+	right: 3rem;
+	bottom: 3rem;
+	background: transparent;
+	background-color: rgb(255, 255, 255);
+	border: none;
+}
+
+.btn-floating:hover {
+	background: transparent;
+}
+
+.btn-floating:focus,
+.btn-floating:active {
+	outline: none;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+/* Add new post tooltip */
+.tooltip {
+	background: transparent;
+}
+
+.tooltip .arrow::before {
+	border-left-color: #78c2ad;
+}
+
+.tooltip-inner {
+	background: #78c2ad;
+}
+
+.form-select {
+	display: block;
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ced4da;
+	background-clip: pading-box;
+	border-radius:0.25rem;
+	padding:.375rem .5rem
+}
+
+
+/* Post border thicker */
+.border-success,
+.border-warning,
+.border-danger {
+	border-width: 2px;
+}
+
+/* Post title */
+.post-title {
+	margin-bottom: 0.5rem;
+}
+
+.navbar-brand{
+	padding-left: 15px;
+}
+.navbar-collapse {
+	padding-left: 15px;
+}
+
+button.post-button.btn.btn-primary {
+	background-color: snow;
+	border: none;
+}
+
+button.btn-floating.btn.btn-primary {
+    background-color: snow;
+    border: none;
+}
