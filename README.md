@@ -1,6 +1,6 @@
 # Demo quản lý sinh viên ReactJS + SailJS
 # Quick Start
-`
+```
 # Clone the repository
 git clone https://github.com/crsandeep/simple-react-full-stack
 
@@ -18,4 +18,4 @@ yarn build (or npm run build)
 
 # Start production server
 yarn start (or npm start)
-`
+```
