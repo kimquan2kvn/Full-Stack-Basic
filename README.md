@@ -5,7 +5,7 @@
 git clone https://github.com/kimquan2kvn/Full-Stack-Basic.git
 
 # Go inside the directory
-cd simple-react-full-stack
+cd crud-basic-student
 
 # Install dependencies
 cd app
