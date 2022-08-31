@@ -11,7 +11,6 @@ cd simple-react-full-stack
 cd app
 npm install
 
-
 # Install dependencies
 cd client
 npm install
