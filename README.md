@@ -2,20 +2,25 @@
 # Quick Start
 ```
 # Clone the repository
-git clone https://github.com/crsandeep/simple-react-full-stack
+git clone https://github.com/kimquan2kvn/Full-Stack-Basic.git
 
 # Go inside the directory
 cd simple-react-full-stack
 
 # Install dependencies
-yarn (or npm install)
+cd app
+npm install
+
+
+# Install dependencies
+cd client
+npm install
 
 # Start development server
-yarn dev (or npm run dev)
+cd app
+nodemon app.js
 
 # Build for production
-yarn build (or npm run build)
-
-# Start production server
-yarn start (or npm start)
+cd client
+npm start
 ```
